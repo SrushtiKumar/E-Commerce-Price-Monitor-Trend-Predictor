@@ -1,4 +1,4 @@
-# 🚗 Vintage Vehicle Price Monitor & Trend Predictor
+# Vehicle Price Monitor & Trend Predictor
 
 An end-to-end Python web scraping, data simulation, and Machine Learning pipeline.
 
