@@ -63,10 +63,23 @@ This repository hosts a production-grade machine learning project that scrapes c
 │   ├── price_by_year.png           # Listing year vs price progression curves
 │   └── price_vs_mileage.png        # Mileage decay impact on listing prices
 ├── scraper.py                      # Multi-page BeautifulSoup web scraper crawler
+├── car_market_analysis.sql         # PostgreSQL analytics queries for database analysis
 ├── analysis.ipynb                  # Data simulation, DB export, feature engineering & ML notebook
 ├── requirements.txt                # Python package dependency manifests
 └── README.md                       # Repository documentation
 ```
+
+---
+
+## 🗃️ Database Analytics
+
+A set of advanced analytical queries is provided in [`car_market_analysis.sql`](car_market_analysis.sql) for PostgreSQL to extract key business intelligence metrics:
+*   **Brand Market Share & Portfolio Asset Concentration:** Evaluates total platform listings and aggregated monetary value per brand.
+*   **Inventory Turnover & Stock Availability Risk:** Tracks inventory Out-of-Stock (OOS) percentages to highlight supply constraints.
+*   **Condition-Driven Price Resilience:** Measures the price retention ratio per kilometer driven across condition rating classes.
+*   **High-Value Investment Prospects:** Queries top available vehicles matching high-condition constraints.
+*   **Geographic Listing Concentration:** Identifies key supply countries and details local pricing standard deviations.
+*   **Vintage Tier Segmentation Analysis:** Classifies vehicles into classic historical eras (e.g. Pre-1960s vs Modern Vintage) and reviews price averages.
 
 ---
 
